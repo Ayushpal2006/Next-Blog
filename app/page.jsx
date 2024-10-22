@@ -38,9 +38,12 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-            Open source Tailwind UI components and templates to{" "}
-            <br className="hidden lg:block" /> bootstrap your new apps, projects
-            or landing sites!
+            <i>
+              Free coding tutorials and components to kickstart your next
+              project!
+            </i>
+
+            <br className="hidden lg:block" />
           </p>
           <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
             <form
@@ -252,12 +255,18 @@ export default function Home() {
                     Typescript Tutorial
                   </h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">
-                    A brief description of the blog post goes here. It should be
-                    engaging and informative.
+                    TypeScript adds static types to JavaScript for better
+                    reliability and safety.
                   </p>
-                  <Button className="m-2" variant="outline" href="/blog-post-1">
-                    Read More
-                  </Button>
+                  <Link href="/blog">
+                    <Button
+                      className="m-2"
+                      variant="outline"
+                      href="/blog-post-1"
+                    >
+                      Read More
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -270,12 +279,18 @@ export default function Home() {
                     Robo War
                   </h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">
-                    A brief description of the blog post goes here. It should be
-                    engaging and informative.
+                    Robo wars feature robots battling for supremacy in strategic
+                    competitions.
                   </p>
-                  <Button className="m-2" variant="outline" href="/blog-post-2">
-                    Read More
-                  </Button>
+                  <Link href="/blog">
+                    <Button
+                      className="m-2"
+                      variant="outline"
+                      href="/blog-post-2"
+                    >
+                      Read More
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -292,10 +307,10 @@ export default function Home() {
                     Digital Arrest
                   </h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">
-                    A brief de scription of the blog post goes here. It should
-                    be engaging and informative.
+                    Digital arrest involves apprehending suspects through
+                    electronic surveillance.
                   </p>
-                  <Link href="/blog" >
+                  <Link href="/blog">
                     <Button className="m-2" variant="outline" href="/blog">
                       Read More
                     </Button>
