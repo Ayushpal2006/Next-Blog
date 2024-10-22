@@ -71,6 +71,7 @@ export function Contact() {
   );
 }
 
+
 function MailIcon(props) {
   return (
     (<svg
