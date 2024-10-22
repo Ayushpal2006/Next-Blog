@@ -4,7 +4,7 @@ description: This is JavaScript tutorial and this is for learning JavaScript
 slug: c-programming-tutorial
 date: 02/03/2025
 author: Ayush
-image: https://images.pexels.com/photos/18069696/pexels-photo-18069696/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l.png?auto=compress&cs=tinysrgb&w=600
+image: /typescript.webp
 ---
 
 Welcome to this comprehensive C programming tutorial! Whether you're a complete beginner or looking to deepen your understanding of C, this guide will take you through the fundamentals and introduce advanced concepts as you progress.

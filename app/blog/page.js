@@ -11,8 +11,7 @@ const blogs = dirContent.map(file=>{
     const fileContent = fs.readFileSync(`content/${file}`, "utf-8")
     const {data} = matter(fileContent)
     return data
-  })
-  
+})
 
 
 // const blogs = [
@@ -22,7 +21,7 @@ const blogs = dirContent.map(file=>{
 //     slug: 'first-blog',
 //     date: '2023-10-01',
 //     author: 'John Doe',
-//     image: 'https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg?auto=compress&cs=tinysrgb&w=600'
+//     image: '/typescript.webp'
 //   },
 //   {
 //     title: 'Second Blog',
@@ -30,7 +29,7 @@ const blogs = dirContent.map(file=>{
 //     slug: 'second-blog',
 //     date: '2023-10-02',
 //     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=600'
+//     image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 //   },
 //   {
 //     title: 'Second Blog',
@@ -38,7 +37,7 @@ const blogs = dirContent.map(file=>{
 //     slug: 'second-blog',
 //     date: '2023-10-02',
 //     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/670003/pexels-photo-670003.jpeg?auto=compress&cs=tinysrgb&w=600'
+//     image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg'
 //   },
 //   // Add more blog objects here
 // ];
