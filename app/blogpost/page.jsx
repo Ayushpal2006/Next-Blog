@@ -23,7 +23,11 @@ export default async function Page({ params }) {
     //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     // };
 
-    const filepath = `content/${params.slug}.md`
+
+    //we need to chnage this
+    // const filepath = `content/${params.slug}.md`
+    const filepath = `content/chatgpt-vs-gemini.md`
+    
     
     if(!fs.existsSync(filepath)){ 
         notFound() 
@@ -53,6 +57,7 @@ export default async function Page({ params }) {
       })
 
     const htmlContent = (await processor.process(content)).toString()
+
 
 
     return (

@@ -4,12 +4,14 @@ import Link from 'next/link';
 import fs from "fs";
 import matter from 'gray-matter';
 
-
+//return all content of Content folder , like c-proggamig-tutorial.md, chatgpt-vs-gemeine
 const dirContent = fs.readdirSync("content", "utf-8")
 
 const blogs = dirContent.map(file=>{
     const fileContent = fs.readFileSync(`content/${file}`, "utf-8")
+    
     const {data} = matter(fileContent)
+    console.log(data)
     return data
 })
 

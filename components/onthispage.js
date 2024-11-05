@@ -15,6 +15,7 @@ const OnThisPage = ({ htmlContent }) => {
       id: h2.id
     }));
     setHeadings(h2Data);
+
   }, [htmlContent]);
 
   return (
