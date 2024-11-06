@@ -1,6 +1,6 @@
 ---
 title: C++ Programming Tutorial
-description: This is JavaScript tutorial and this is for learning JavaScript
+description: This is C++ tutorial and this is for learning C++
 slug: cpp-programming-tutorial
 date: 09/02/2025
 author: Ayush

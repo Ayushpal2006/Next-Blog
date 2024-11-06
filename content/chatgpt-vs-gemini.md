@@ -1,6 +1,6 @@
 ---
 title: ChatGPT vs. Gemini
-description: This is JavaScript tutorial and this is for learning JavaScript
+description: This is Chatgpt  tutorial and this is for learning Chatgpt 
 slug: chatgpt-vs-gemini
 date: 08/02/2025
 author: Ayush

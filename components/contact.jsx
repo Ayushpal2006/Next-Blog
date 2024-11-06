@@ -50,18 +50,18 @@ export function Contact() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <MapPinIcon className="w-6 h-6" />
-              <p>123 Street, City, Country, 12345</p>
+              <p>Hansraj College , delhi - 110007</p>
             </div>
             <div className="flex items-center space-x-2">
               <PhoneIcon className="w-6 h-6" />
               <Link className="underline" href="#" prefetch={false}>
-                +1 234 567 890
+                +91 7982**7**06
               </Link>
             </div>
             <div className="flex items-center space-x-2">
               <MailIcon className="w-6 h-6" />
               <Link className="underline" href="#" prefetch={false}>
-                info@example.com
+                ayushpalworkplace2006@gmail.com
               </Link>
             </div>
           </div>

@@ -1,6 +1,6 @@
 ---
 title: CSS Tutorial
-description: This is JavaScript tutorial and this is for learning JavaScript
+description: This is Css tutorial and this is for learning Css
 slug: css-tutorial
 date: 11/02/2025
 author: Ayush
