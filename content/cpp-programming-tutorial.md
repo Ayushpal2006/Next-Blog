@@ -4,7 +4,7 @@ description: This is JavaScript tutorial and this is for learning JavaScript
 slug: cpp-programming-tutorial
 date: 09/02/2025
 author: Ayush
-image: https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: https://i.ytimg.com/vi/S3nx34WFXjI/maxresdefault.jpg
 ---
 
 # C++ Programming Tutorial: A Comprehensive Guide

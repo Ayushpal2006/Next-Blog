@@ -11,7 +11,7 @@ const blogs = dirContent.map(file=>{
     const fileContent = fs.readFileSync(`content/${file}`, "utf-8")
     
     const {data} = matter(fileContent)
-    console.log(data)
+    
     return data
 })
 

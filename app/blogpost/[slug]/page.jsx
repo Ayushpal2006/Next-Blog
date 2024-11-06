@@ -25,8 +25,8 @@ export default async function Page({ params }) {
 
 
     //we need to chnage this
-    // const filepath = `content/${params.slug}.md`
-    const filepath = `content/chatgpt-vs-gemini.md`
+    const filepath = `content/${params.slug}.md`
+    // const filepath = `content/chatgpt-vs-gemini.md`
     
     
     if(!fs.existsSync(filepath)){ 
